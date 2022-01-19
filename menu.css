@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "MontserratBold";
+    src: url("/FONT/Montserrat-Bold.ttf") format("truetype");
+   }
+   @font-face {
+    font-family: "Montserrat";
+    src: url("/FONT/montserrat/static/Montserrat-Regular.ttf") format("truetype");
+   }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    line-height: 1,5em;
+}
+p, button{
+    font-family: Montserrat, Helvetica, sans-serif;
+}
+body{
+    background-color: #4e473a;
+}
+/*-----Section1-----*/
+.sec1 .container {
+    /* Permet de align au centre les informations */
+    display: flex;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.sec1 .container .left h1 {
+  font-size: 4em;
+  color:antiquewhite;
+  text-align: left;
+  line-height: 0.9em;
+  letter-spacing: 0.06em;
+}
+
+.sec1 .container .left p{
+    color: antiquewhite;
+    max-width: 550px;
+   
+    margin: 40px 0;
+    line-height: 1.2em;
+}
+
+.sec1 .container .right img{
+    height: 50em;
+}
+
+.sec1 .container .left button{
+   width: 250px;
+   height: 65px;
+   border-radius: 50px;
+   border: none;
+   font-size: 1.3em;
+   background-color: #dc8700;
+   color: antiquewhite;
+   box-shadow: 0px 0px 10px #dc8700;
+   letter-spacing: 0.08em;
+}
+
+@media (max-width: 1600px){
+    .sec1{
+        margin: 40px;
+    }
+    .sec1 .container .left h1 {
+        font-size: 3em;
+      }
+
+}
+
+@media (max-width: 1300px){
+    .sec1 .container {
+        /* Permet de align au centre les informations */
+        flex-direction: column;
+        margin-top: 150px;
+    }
+    .sec1 .left{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .sec1 .container .right img{
+        height: 40em;
+    }
+}
+
+@media (max-width: 650px){
+    .sec1 .container .left h1 {
+        font-size: 1.7em;
+      }
+    .sec1 .container .left p{
+        margin: 40px 35px;
+        line-height: 1.2em;
+    }
+    .sec1 .container .right img{
+        height: 30em;
+    }
+}
