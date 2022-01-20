@@ -23,6 +23,7 @@ p, button{
 }
 body{
     background-color: #4e473a;
+    height: 4000px;
 }
 /*-----Section1-----*/
 .sec1 .container {
@@ -32,25 +33,26 @@ body{
     max-width: 1500px;
     margin: 0 auto;
 }
-
+.sec1 .container .left{
+    padding-left: 100px;
+}
 .sec1 .container .left h1 {
   font-size: 4em;
   color:antiquewhite;
   text-align: left;
   line-height: 0.9em;
   letter-spacing: 0.06em;
+
 }
 
 .sec1 .container .left p{
     color: antiquewhite;
     max-width: 550px;
-   
     margin: 40px 0;
     line-height: 1.2em;
 }
-
 .sec1 .container .right img{
-    height: 50em;
+    height: 45em;
 }
 
 .sec1 .container .left button{
@@ -81,18 +83,20 @@ body{
         flex-direction: column;
         margin-top: 150px;
     }
-    .sec1 .left{
+    .sec1 .container .left{
         display: flex;
         flex-direction: column;
         text-align: center;
         align-items: center;
+        padding-left: 0px;
     }
+
     .sec1 .container .right img{
         height: 40em;
     }
 }
 
-@media (max-width: 650px){
+@media (max-width: 770px){
     .sec1 .container .left h1 {
         font-size: 1.7em;
       }
