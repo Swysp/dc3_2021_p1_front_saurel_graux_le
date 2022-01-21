@@ -66,3 +66,30 @@ h1, h2, h3, h4, h5, h6 {
     #button-accueil:hover{
         background-color: #7c1a1d;
     }
+
+    /* SECTION DEUX */
+    .sect-deux{
+        background-image: url(img/tanlap-fond.jpg);
+        display: flex;
+        flex-direction: row;
+        padding: 100px 150px;
+    }
+
+    .sdeux-left{
+        padding-right: 200px;
+        padding-top: 100px;
+    }
+
+    .sdeux-left p{
+        font-weight: 300;
+        padding-top: 20px;
+    }
+
+    .sdeux-left h2{
+        color: #dd1b22;
+    }
+
+    .sdeux-right img{
+        max-width: 600px;
+        margin: 0 30px;
+    }
