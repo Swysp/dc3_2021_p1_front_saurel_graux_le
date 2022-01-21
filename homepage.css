@@ -1,55 +1,7 @@
 
-/* Section du slider */
-    .slider{
-        width: 100%;
+    /* SECTION PREMIER */
+    .sect-premier{
         height: 600px;
-        overflow: hidden;
-        margin: 0 auto;
-    }
-
-    .slides{
-        width: calc(2000px*3);
-        animation: glisse 40s infinite;
-    }
-
-    .slide{
-        float: left;
-        display: flexbox;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .slide p{
-        color: chocolate;
-    }
-
-    /*.slide img {
-            flex-shrink: 0;
-            max-width: 100%;
-            max-height: 100%
-    }*/
-
-/* Animation du slider */
-    @keyframes glisse {
-        0%{
-            transform: translateX(0);
-        }
-        1%{
-            transform: translateX(0);
-        }
-        33%{
-            transform: translateX(-2000px);
-        }
-        43%{
-            transform: translateX(-2000px);
-        }  
-        66%{
-            transform: translateX(-4000px);
-        }
-        76%{
-            transform: translateX(-4000px);
-        }
-        100%{
-            transform: translateX(0);
-        }   
+        width: 100%;
+        background-image: url(img/tanlap-slide1.jpg);
     }
