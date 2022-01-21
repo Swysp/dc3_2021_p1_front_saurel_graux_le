@@ -3,24 +3,25 @@
         <title>Restaurant Tan Lap</title>
         <meta charset="utf-8">
         <link href="homepage.css" rel="stylesheet">
+
+        <!--Inclure la Fiche CSS-->
+        <link rel="stylesheet" href="menu.css"/>
     </head>
 
     <body>
+        <!--PENSER A L'ENVOYER EN MODE PHP SUR TOUTE LES PAGES-->
+        <!--On ajoute la Navbar/Menu -->
+        <link rel="stylesheet" href="navbar.css"/>
         <header>
-            <div class="header">
-                <div class="logo-header">
-                    <a>
-                        <img src="img/logo-asb-email.png">
-                    </a>
-                </div>
-
-                <div class="menu-navigation">
-                    <a><p>Qui sommes-nous ?</p></a>
-                    <a><p>Menu</p></a>
-                    <a><p>Gallerie</p></a>
-                    <a><p>Contact</p></a>
-                </div>
-            </div>
+            <img class="logo" src="IMG/logo-asb-email.png" alt="logo">
+            <nav>
+                <ul class="nav-liens">
+                    <li><a href="#">Le restaurant</a></li>
+                    <li><a href="#">Le menu</a></li>
+                </ul>
+            </nav>
+            <a class="contact" href="#"><button>Contact</button></a>
         </header>
+        
     </body>
 </html>
