@@ -21,10 +21,13 @@ h1, h2, h3, h4, h5, h6 {
 p, button{
     font-family: Montserrat, Helvetica, sans-serif;
 }
-body{
+
+/* MISE EN COMMENTAIRE DU FOND DU BODY */
+/*body{
     background-color: #4e473a;
     height: 4000px;
-}
+}*/
+
 /*-----Section1-----*/
 .sec1 .container {
     /* Permet de align au centre les informations */
