@@ -145,9 +145,18 @@ body{
     transform: rotate(45deg);
 }
 .secPOP .modal .modal_content button{
-    width: 105px;
-    height: 35px;
     background-color: #d6242a;
+    width: 120px;
+    height: 40px;
+    box-shadow: none;
+    display: flex;
+    position: relative;
+    left: 271px;
+    margin: 17px;
+/*Problème sur le texte du bouton (padding-left), mais je n'ai trouvé que cette solution pour arranger*/
+    font-size: 1em;
+    letter-spacing: normal;
+    padding-left: 1.1em;
 }
 /*Fin de la fenêtre POP-UP*/
 
