@@ -144,6 +144,11 @@ body{
     transition: .3s;
     transform: rotate(45deg);
 }
+.secPOP .modal .modal_content button{
+    width: 105px;
+    height: 35px;
+    background-color: #d6242a;
+}
 /*Fin de la fenêtre POP-UP*/
 
 
