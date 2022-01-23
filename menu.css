@@ -74,6 +74,7 @@ body{
    letter-spacing: 0.08em;
 }
 /* Création du fenêtre POP-UP en CSS */
+
 .modal{
     visibility: hidden;
     opacity: 0;
@@ -87,7 +88,10 @@ body{
     justify-content: center;
     align-items: center;
 }
-
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
 .modal .modal_content{
     background-color: white;
     padding: 1.5em 2em;
@@ -121,7 +125,7 @@ body{
     .sec1 .container {
         /* Permet de align au centre les informations */
         flex-direction: column;
-        margin-top: 150px;
+
     }
     .sec1 .container .left{
         display: flex;
