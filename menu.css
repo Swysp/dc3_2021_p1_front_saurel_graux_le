@@ -22,11 +22,11 @@ p, button{
     font-family: Montserrat, Helvetica, sans-serif;
 }
 
-/* MISE EN COMMENTAIRE DU FOND DU BODY */
-/*body{
+
+body{
     background-color: #4e473a;
     height: 4000px;
-}*/
+}
 
 /*-----Section1-----*/
 .sec1 .container {
