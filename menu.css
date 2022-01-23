@@ -209,13 +209,10 @@ body{
         font-size: 1em;
         padding-top: 0;
     }
-}
-
-@media (max-width: 770px){
     .secPOP .modal .modal_content input{
-     width: 100%;  
-    }
-    .secPOP .modal .modal_content button{
-        margin: 15px auto;
-    }
+        width: 100%;  
+       }
+       .secPOP .modal .modal_content button{
+           margin: 15px auto;
+       }
 }
