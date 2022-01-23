@@ -93,6 +93,7 @@ body{
     color: #202020;
     font-size: 1.1em;
     text-align: center;
+    margin-top: 5%;
 }
 .sec1POP .modal .modal_content p {
     color: #202020;
@@ -115,7 +116,7 @@ body{
     transition: .3s;
 }
 .modal_content .input{
-    margin: 10px 0;
+    margin-top: 8%;
 }
 /*Permet de rendre visible la page pop-up*/
 .modal:target {
@@ -130,6 +131,7 @@ body{
     max-width: 90%;
     border-radius: 4px;
     position: relative;
+    padding-top: 10px;
 }
 /*Permet de fermer la page POP-UP*/
 .modal_close{
@@ -154,7 +156,7 @@ body{
     left: 271px;
     margin: 17px;
 /*Problème sur le texte du bouton (padding-left), mais je n'ai trouvé que cette solution pour arranger*/
-    font-size: 1em;
+    font-size: 0.95em;
     letter-spacing: normal;
     padding-left: 1.1em;
 }
@@ -167,6 +169,10 @@ body{
     .sec1 .container .left h1 {
         font-size: 3em;
         padding-top: 10%;
+      }
+      .secPOP .modal .modal_content h1 {
+          font-size: 1em;
+          padding-top: 0;
       }
 
 }
@@ -200,5 +206,15 @@ body{
     }
     .sec1 .container .right img{
         height: 30em;
+    }
+    .secPOP .modal .modal_content h1 {
+        font-size: 1em;
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 770px){
+    .secPOP .modal .modal_content input{
+     width: 100%;  
     }
 }
