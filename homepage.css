@@ -67,6 +67,23 @@ h1, h2, h3, h4, h5, h6 {
         background-color: #7c1a1d;
     }
 
+    /*BUTTON SECTION TROIS*/
+    #button-trois{
+        padding: 15px 30px;
+        background-color: #ffffff;
+        border: none;
+        border-radius: 40px;
+        cursor:pointer;
+        transition: all 0.3s ease 0s; 
+        color: #7c1a1d;
+        font-size: 14px;
+        margin: 0;
+        width: 250px;
+    }
+    #button-trois:hover{
+        background-color: #dedede;
+    }
+
     /* SECTION DEUX */
     .sect-deux{
         background-image: url(img/tanlap-fond.jpg);
@@ -92,4 +109,35 @@ h1, h2, h3, h4, h5, h6 {
     .sdeux-right img{
         max-width: 600px;
         margin: 0 30px;
+    }
+
+    /* SECTION TROIS */
+    .sect-trois{
+        width: 100%;
+        height: 700px;
+        background-color: #7c1a1d;
+        display: flex;
+        flex-direction: row;
+    }
+    .strois-left{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        padding-left: 150px;
+    }
+    .strois-left p,.strois-left h2{
+        width: 700px;
+        color: #f5f5f5;
+    }
+    .strois-left p{
+        text-align: justify;
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    .strois-right{
+        height: 700px;
+        width: 50%;
+        background-image: url(img/tanlap-interieur.jpg);
     }
