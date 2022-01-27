@@ -147,3 +147,41 @@ h1, h2, h3, h4, h5, h6 {
         height: 700px;
         overflow: hidden;
     }
+
+    /* SECTION QUATRE */
+    .sect-quatre{
+        width: 100%;
+        height: 700px;
+        background-image: url(img/tanlap-fond.jpg);
+        display: flex;
+        flex-direction: row;
+    }
+    .squatre-left{
+        width: 50%;
+    }
+    .squatre-right{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .squatre-left img{
+        width: 450px;
+        height: auto;
+    }
+    .squatre-left-img1{
+        margin: 100px 0 0 120px;
+    }
+    .squatre-left-img2{
+        margin: -100px 0 0 380px;
+    }
+    .squatre-right-sub {
+        width: 700px;
+        margin-left: 100px;
+    }
+    .squatre-right-column{
+        display: flex;
+        flex-direction: row;
+        padding: 20px 0;
+    }
