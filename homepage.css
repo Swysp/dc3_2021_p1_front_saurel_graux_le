@@ -137,7 +137,13 @@ h1, h2, h3, h4, h5, h6 {
         padding-bottom: 30px;
     }
     .strois-right{
-        height: 700px;
         width: 50%;
-        background-image: url(img/tanlap-interieur.jpg);
+    }
+    .strois-right img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        height: 700px;
+        overflow: hidden;
     }
