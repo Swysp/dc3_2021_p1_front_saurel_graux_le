@@ -126,7 +126,8 @@ display:flex;
 }
 .image1
 {
-width: 40%;  
+width: 40%;
+margin-top:5%;  
 }
 .image2
 {
@@ -134,5 +135,6 @@ width: 10%;
 }
 .citation-text
 {
-width:50%
+width:50%;
+margin-top:20%;
 }
