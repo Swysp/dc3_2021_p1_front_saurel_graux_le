@@ -123,6 +123,8 @@ header .logo
   text-decoration: none;
 }
 
+/* Bloc 2 */
+
 .citation 
 {
   display:flex;
@@ -150,6 +152,25 @@ header .logo
     padding-right: 5%;
     width: 45%;
   }
+}
+
+@keyframes movemydiv {
+  from {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.image1
+{
+  animation: movemydiv 70s linear alternate infinite;
 }
 
 .image1 img
