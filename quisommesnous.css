@@ -1,28 +1,29 @@
-@font-face {
-    font-family: "MontserratBold";
-    src: url("FONT/Montserrat-Bold.ttf") format("truetype");
-   }
+@font-face 
+{
+  font-family: "MontserratBold";
+  src: url("FONT/Montserrat-Bold.ttf") format("truetype");
+}
 
+@font-face 
+{
+  font-family: "Montserrat";
+  src: url("FONT/montserrat/static/Montserrat-Regular.ttf") format("truetype");
+}
 
-
-@font-face {
-    font-family: "Montserrat";
-    src: url("FONT/montserrat/static/Montserrat-Regular.ttf") format("truetype");
-   }
-
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 
+{
     font-family: "MontserratBold";
     text-transform: uppercase;
     line-height: 1,5em;
 }
-
-
   
-*{
+*
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 header
 {
   position: absolute;
@@ -54,6 +55,7 @@ header .logo
   transition: 0.5s;
   z-index: 2;
 }
+
 .section.active
 {
   right: 300px;
@@ -85,6 +87,7 @@ header .logo
   line-height: 1em;
   text-transform: uppercase;
 }
+
 .text h2
 {
   font-size: 4em;
@@ -122,19 +125,28 @@ header .logo
 
 .citation 
 {
-display:flex;
+  display:flex;
+  align-items: center;
+  background-image: url(img/tanlap-fond.jpg);
 }
+
 .image1
 {
-width: 40%;
-margin-top:5%;  
+  width: 40%;
+  margin-top:5%;  
 }
+
 .image2
 {
-width: 10%;  
+  width: 10%;
+  font-size: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10%;  
 }
+
 .citation-text
 {
-width:50%;
-margin-top:20%;
+  padding-right: 5%;
 }
