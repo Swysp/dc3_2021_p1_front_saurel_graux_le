@@ -1,0 +1,13 @@
+/*Installation des fonts*/
+@font-face {
+    font-family: "SourceSerifBold";
+    src: url("/FONT/SOURCESERIFPRO-BOLD.ttf") format("truetype");
+}
+@font-face {
+    font-family: "SourceSerifRegular";
+    src: url("/FONT/SOURCESERIFPRO-REGULAR.ttf") format("truetype");
+}
+@font-face {
+    font-family: "SourceSerifLight";
+    src: url("/FONT/SOURCESERIFPRO-LIGHT.ttf") format("truetype");
+}
