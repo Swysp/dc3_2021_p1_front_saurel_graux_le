@@ -8,13 +8,6 @@
    }
 
 
-
-header{
-    position: sticky;
-    top: 0px;
-}
-
-
 li, a, button{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -27,8 +20,12 @@ header{
      display: flex;
      justify-content: flex-end;
      align-items: center;
+     width: 100%;
      padding: 0% 10%;
-     background-color: #F5F5F5;
+     background-color: #F5F5F5BB;
+     position: absolute;
+     top: 0px;
+     z-index: 9999;
 }
 
 .logo {
@@ -40,6 +37,7 @@ header{
 
 .nav-liens{
      list-style: none;
+     float: right;
 }
 .nav-liens li{
     display: inline-block;
