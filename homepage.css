@@ -141,7 +141,7 @@
 
     .sdeux-left{
         padding-right: 200px;
-        padding-top: 100px;
+        padding-top: 50px;
     }
 
     .sdeux-left p{
@@ -216,7 +216,11 @@
     }
     .squatre-left img{
         width: 450px;
-        height: auto;
+        height: 300px;
+        vertical-align: middle;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 5px;
     }
     .squatre-left-img1{
         margin: 100px 0 0 120px;
