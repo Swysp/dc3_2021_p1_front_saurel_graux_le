@@ -13,11 +13,7 @@
     src: url("/FONT/montserrat/static/Montserrat-Regular.ttf") format("truetype");
    }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: Montserrat;
-    text-transform: uppercase;
-    line-height: 1,5em;
-}
+
 p, button{
     font-family: Montserrat, Helvetica, sans-serif;
 }

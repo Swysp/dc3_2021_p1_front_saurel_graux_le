@@ -4,22 +4,6 @@
     padding:0;
     /*box-sizing: border-box;*/
 }
-
-@font-face {
-    font-family: "MontserratBold";
-    src: url("/FONT/Montserrat-Bold.ttf") format("truetype");
-   }
-   @font-face {
-    font-family: "Montserrat";
-    src: url("/FONT/montserrat/static/Montserrat-Regular.ttf") format("truetype");
-   }
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: Montserrat;
-    text-transform: uppercase;
-    line-height: 1,5em;
-}
-   
    
    /* SECTION PREMIER */
     .sect-premier{
@@ -39,9 +23,9 @@ h1, h2, h3, h4, h5, h6 {
     .spre-left h1{
         color: #ffffff;
         line-height: 80px;
-        font-family: 'Times New Roman', Times, serif;
         font-size: 50px;
         font-weight: 400;
+        text-decoration: none;
     }
     .spre-left p{
         color: #cacaca;

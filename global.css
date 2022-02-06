@@ -11,3 +11,22 @@
     font-family: "SourceSerifLight";
     src: url("/FONT/SOURCESERIFPRO-LIGHT.ttf") format("truetype");
 }
+@font-face {
+    font-family: "MontserratBold";
+    src: url("/FONT/Montserrat-Bold.ttf") format("truetype");
+   }
+@font-face {
+    font-family: "Montserrat";
+    src: url("/FONT/montserrat/static/Montserrat-Regular.ttf") format("truetype");
+   }
+
+/*TITRES*/
+h1, h2, h3 {
+    font-family: 'SourceSerifRegular';
+    line-height: 1,5em;
+}
+h4, h5, h6 {
+    font-family: 'Montserrat';
+    line-height: 1,5em;
+}
+   
