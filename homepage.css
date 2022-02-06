@@ -9,16 +9,31 @@
     .sect-premier{
         height: 700px;
         width: 100%;
-        background-image: url(img/tanlap-slide1.jpg);
+        overflow: hidden;
+        position: relative;
     }
-
+    .sect-prebg {
+        width: 100%;
+        height: 100%;
+        background-image: url(img/fond-banner-sect1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .sect-prebg:hover{
+            transform: scale(1.05);
+            transition: all 3s;
+    }
+    
     .spre-left{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         text-align: center;
-        padding: 250px 0 0 150px;
-        
+        top:250px;
+        left:150px;
+        padding: 0px;
+        position: absolute;
     }
     .spre-left h1{
         color: #ffffff;
