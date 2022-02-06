@@ -34,24 +34,36 @@ h4, h5, h6 {
 /*FOOTER*/
 footer {
     background-color: #7c1a1d;
-    height: 150px;
+    height: auto;
     width: 100%;
     padding: 25px;
 }
-.footer-niv1 {
-    display: flex;
-    /*flex-direction: row;*/
-    justify-content: center;
-}
 .footer-niv2 {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 .footer-logo{
-    width: 200px;
-    max-width: 200px;
+    width: 150px;
+    max-width: 150px;
     height: auto;
     padding-bottom: 20px;
 }
 .footer-mentions {
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+.footer-mentions a, .footer-mentions p {
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #dedede;
+    font-size: 12px;
+    font-weight: 200;
+}
+.footer-mentions a {
+    text-decoration: underline;
+}
+.footer-mentions a:hover {
+    color: #ffffff;
 }
