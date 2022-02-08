@@ -46,7 +46,12 @@ body{
 }
 .sec1 .container .right img{
     height: 45em;
+    transition: transform 1s;
 }
+.sec1 .container .right:hover img{
+    transform: scale(1.031);
+}
+
 
 .sec1 .container .left button{
    width: 250px;
