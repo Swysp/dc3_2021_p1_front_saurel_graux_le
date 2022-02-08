@@ -10,7 +10,7 @@
   src: url("FONT/montserrat/static/Montserrat-Regular.ttf") format("truetype");
 }
 
-h1, h2, h3, h4, h5, h6 
+h1, h2, h3, h4, h5, h6
 {
   font-family: "MontserratBold";
   text-transform: uppercase;
@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat";
 }
 
 header
@@ -214,8 +215,40 @@ header .logo
 .presentation 
 {
   width: 25%;
+  margin-top: 5%;
+  padding-left: 10%
 }
+
 .frise
 {
   width:75%;
+  margin-top: 5%;
+  padding-left : 8%;
+  padding-right: 8%;
+
+}
+table 
+{
+border-collapse : collapse; 
+border-spacing:0%;
+}
+.droite
+{
+text-align: right;
+padding: 0% 3% 3% 0%;
+border-right : 0.4rem solid;
+border-color: #952327;
+}
+.gauche
+{
+text-align: left;
+ padding: 0% 0% 3% 3%;
+ border-color: #952327;
+
+}
+
+.date
+{
+font-size: 18px;
+color: #952327;
 }
