@@ -122,7 +122,10 @@ header .logo
   text-transform: uppercase;
   text-decoration: none;
 }
-
+.page
+{
+  background-image: url(img/tanlap-fond.jpg);
+}
 /* Bloc 2 */
 
 .citation 
@@ -130,7 +133,6 @@ header .logo
   display:flex;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url(img/tanlap-fond.jpg);
   justify-content: center;
   padding:5% 0%;
 }
@@ -207,12 +209,13 @@ header .logo
   display:flex;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url(img/tanlap-fond.jpg);
 }
 
-.presentation {
+.presentation 
+{
   width: 25%;
 }
-.frise{
-width:75%
+.frise
+{
+  width:75%;
 }
