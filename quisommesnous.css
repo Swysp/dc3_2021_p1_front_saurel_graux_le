@@ -201,58 +201,109 @@ header .logo
   .citation-text
   {
     padding: 0px 5%;
-  }
+  }  
 }
 
 /* Bloc 3 */
 
-.timeline
+@media (min-width: 1280px) 
 {
-  display:flex;
-  flex-wrap: wrap;
-  align-items: top;
+  .timeline
+  {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: top;
+    line-height: 2em;
+  }
+  
+  .presentation 
+  {
+    width: 35%;
+    margin-top: 5%;
+    padding-left: 10%
+  }
+  
+  .frise
+  {
+    width:65%;
+    margin-top: 5%;
+    padding-left : 8%;
+    padding-right: 8%;
+    margin-bottom:15%;
+  
+  }
+  .droite
+  {
+  text-align: right;
+  padding: 0% 3% 3% 0%;
+  border-right : 0.4rem solid;
+  border-color: #952327;
   line-height: 2em;
+  }
+  .gauche
+  {
+  text-align: left;
+   padding: 0% 0% 3% 3%;
+   border-color: #952327;
+   line-height: 2em;
+  }
+  
 }
 
-.presentation 
-{
-  width: 35%;
-  margin-top: 5%;
-  padding-left: 10%
-}
 
-.frise
-{
-  width:65%;
-  margin-top: 5%;
-  padding-left : 8%;
-  padding-right: 8%;
-
-}
 table 
 {
-border-collapse : collapse; 
-border-spacing:0%;
-}
-.droite
-{
-text-align: right;
-padding: 0% 3% 3% 0%;
-border-right : 0.4rem solid;
-border-color: #952327;
-line-height: 2em;
-}
-.gauche
-{
-text-align: left;
- padding: 0% 0% 3% 3%;
- border-color: #952327;
- line-height: 2em;
+  border-collapse : collapse; 
+  border-spacing:0%;
 }
 
 .date
 {
 font-size: 18px;
 color: #952327;
+}
+
+@media (max-width: 1280px)
+{
+  .timeline
+  {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: top;
+    line-height: 2em;
+  }
+  
+  .presentation 
+  {
+    margin-top: 5%;
+    padding-left: 15%;
+    padding-right:15%;
+  }
+  
+  .frise
+  {
+    margin-top: 5%;
+    padding-left : 15%;
+    padding-right: 15%;
+    margin-bottom:10%;
+  
+  }
+.gauche
+ {
+  border-color: #952327;
+  line-height: 2em;
+  padding-top: 5%;
+}
+.droite
+{
+  border-color: #952327;
+  line-height: 2em;
+  padding-top: 5%;
+}
+.vide
+{
+  display:none;
+}
+
 
 }
