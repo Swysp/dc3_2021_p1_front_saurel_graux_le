@@ -152,26 +152,21 @@ body{
 .sec2{
     background-image: url("img/tanlap-fond.jpg");
     height: 1000px;
-    
 }
-.sec2 .container2 {
-    /* Permet de align au centre les informations */
+.sec2{
     display: flex;
+    justify-content: center;
     align-items: center;
-    max-width: 1500px;
-    margin: 0 auto;
-    justify-content: space-around;
-    height: 500px;
+    flex-direction: column;
+    padding: 40px;
 }
-.sec2 .container2 .CARRE1{
-    border-width: 2px;
-    border-style: ridge;
-    background-color: #d6242a;
-    padding: 200px 50px;
+.sec2 .head-sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.sec2 .container2 .CARRE1 p{
-    margin: 0px;
-}
+.sec2 .head-sec2
 /*----------FIN SECTION2-------------*/
 /*Début du responsive*/
 @media (max-width: 1600px){
