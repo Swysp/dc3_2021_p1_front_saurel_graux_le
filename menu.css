@@ -159,20 +159,26 @@ section#lesrepas .container-repas{
     justify-content: space-evenly;
     padding-bottom: 100px;
 }
+
 section#lesrepas .container-repas .repas-article{
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 300px;
+    background-color: #d6242a;
+    border-radius: 15px;
 }
 
 section#lesrepas .container-repas .repas-article .repas-images img{
     width: 100%;
+    border-radius: 15px 15px 0 0;
 }
-section#lesrepas .container-repas .repas-article .description{
+
+section#lesrepas .container-repas .repas-article .descriptions{
     max-width: 500px;
     display: flex;
     flex-direction: column;
+    padding: 20px 30px;
 }
 
 
