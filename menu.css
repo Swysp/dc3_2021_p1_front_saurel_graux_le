@@ -149,24 +149,38 @@ body{
 }
 /*Fin de la fenêtre POP-UP*/
 /*----------SECTION2-------------*/
-.sec2{
-    background-image: url("img/tanlap-fond.jpg");
-    height: 1000px;
-}
-.sec2{
+
+section#lesrepas .container-repas{
+    max-width: 1600px;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
 }
-.sec2 .head-sec2{
+section#lesrepas .container-repas .repas-article{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    max-width: 300px;
+}
+
+section#lesrepas .container-repas .repas-article .repas-images img{
+    width: 100%;
+}
+section#lesrepas .container-repas .repas-article .description{
+    max-width: 500px;
+    display: flex;
     flex-direction: column;
 }
-.sec2 .head-sec2
+
+
+
+
+
+
+
 /*----------FIN SECTION2-------------*/
 /*Début du responsive*/
 @media (max-width: 1600px){
