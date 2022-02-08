@@ -26,6 +26,7 @@ header{
      position: absolute;
      top: 0px;
      z-index: 9999;
+     position: sticky;
 }
 
 .logo {
