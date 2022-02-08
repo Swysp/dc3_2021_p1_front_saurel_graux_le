@@ -290,15 +290,19 @@ color: #952327;
   }
 .gauche
  {
-  border-color: #952327;
   line-height: 2em;
   padding-top: 5%;
+  border-left : 0.4rem solid;
+  border-color: #952327;
+  padding-left:5%;
 }
 .droite
 {
-  border-color: #952327;
   line-height: 2em;
   padding-top: 5%;
+  border-left : 0.4rem solid;
+  border-color: #952327;
+  padding-left: 5%;
 }
 .vide
 {
