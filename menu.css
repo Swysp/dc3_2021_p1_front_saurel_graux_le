@@ -4,24 +4,14 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: "MontserratBold";
-    src: url("/FONT/Montserrat-Bold.ttf") format("truetype");
-   }
-   @font-face {
-    font-family: "Montserrat";
-    src: url("/FONT/montserrat/static/Montserrat-Regular.ttf") format("truetype");
-   }
-
-
 p, button{
     font-family: Montserrat, Helvetica, sans-serif;
 }
 
 
-/*body{
+body{
     height: 4000px;
-}*/
+}
 
 .sec1{
     background-color: #202020;
