@@ -52,7 +52,6 @@ body{
     transform: scale(1.031);
 }
 
-
 .sec1 .container .left button{
    width: 250px;
    height: 65px;
@@ -93,7 +92,7 @@ body{
 }
 /*On fait génère la page*/
 .modal{
-    /*On la laisse déjà en CACHE pour ne pas cacher la page principale*/
+/*On la laisse déjà en CACHE pour ne pas cacher la page principale*/
     visibility: hidden;
     opacity: 0;
     position: absolute;
@@ -144,14 +143,36 @@ body{
     display: block;
     margin: 15px 67%;
     position: relative;
-/*Problème sur le texte du bouton (padding-left), mais je n'ai trouvé que cette solution pour arranger*/
     font-size: 0.95em;
     letter-spacing: normal;
     padding-left: 1.1em;
 }
 /*Fin de la fenêtre POP-UP*/
-
-
+/*----------SECTION2-------------*/
+.sec2{
+    background-image: url("img/tanlap-fond.jpg");
+    height: 1000px;
+    
+}
+.sec2 .container2 {
+    /* Permet de align au centre les informations */
+    display: flex;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    justify-content: space-around;
+    height: 500px;
+}
+.sec2 .container2 .CARRE1{
+    border-width: 2px;
+    border-style: ridge;
+    background-color: #d6242a;
+    padding: 200px 50px;
+}
+.sec2 .container2 .CARRE1 p{
+    margin: 0px;
+}
+/*----------FIN SECTION2-------------*/
 /*Début du responsive*/
 @media (max-width: 1600px){
     
