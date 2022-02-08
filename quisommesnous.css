@@ -132,6 +132,7 @@ header .logo
   align-items: center;
   background-image: url(img/tanlap-fond.jpg);
   justify-content: center;
+  padding:5% 0%;
 }
 
 @media (min-width: 1280px) 
@@ -139,7 +140,7 @@ header .logo
   .image1
   {
     width: 35%;
-    margin-top:5%;  
+    
   }
 
   .image2
@@ -197,4 +198,21 @@ header .logo
   {
     padding: 0px 5%;
   }
+}
+
+/* Bloc 3 */
+
+.timeline
+{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url(img/tanlap-fond.jpg);
+}
+
+.presentation {
+  width: 25%;
+}
+.frise{
+width:75%
 }
