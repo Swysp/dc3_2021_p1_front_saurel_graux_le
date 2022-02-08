@@ -126,6 +126,7 @@ header .logo
 .page
 {
   background-image: url(img/tanlap-fond.jpg);
+  background-repeat : repeat;
 }
 /* Bloc 2 */
 
@@ -209,19 +210,20 @@ header .logo
 {
   display:flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: top;
+  line-height: 2em;
 }
 
 .presentation 
 {
-  width: 25%;
+  width: 35%;
   margin-top: 5%;
   padding-left: 10%
 }
 
 .frise
 {
-  width:75%;
+  width:65%;
   margin-top: 5%;
   padding-left : 8%;
   padding-right: 8%;
@@ -238,17 +240,19 @@ text-align: right;
 padding: 0% 3% 3% 0%;
 border-right : 0.4rem solid;
 border-color: #952327;
+line-height: 2em;
 }
 .gauche
 {
 text-align: left;
  padding: 0% 0% 3% 3%;
  border-color: #952327;
-
+ line-height: 2em;
 }
 
 .date
 {
 font-size: 18px;
 color: #952327;
+
 }
