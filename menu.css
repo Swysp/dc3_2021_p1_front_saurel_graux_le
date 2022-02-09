@@ -143,16 +143,18 @@ p, button{
 }
 /*Fin de la fenêtre POP-UP*/
 /*----------SECTION2-------------*/
+section#lesrepas{
+    background-image: url(img/tanlap-fond.jpg);
+}
 section#lesrepas .repas{
     text-align: center;
     padding: 50px 0;
 }
 section#lesrepas .repas h1{
-    font-size: 4em;
+    font-size: 3em;
     color: #202020;
 }
 section#lesrepas .repas h2{
-
     color: #202020;
 }
 section#lesrepas .container-repas{
@@ -197,13 +199,38 @@ section#lesrepas .container-repas .repas-article a{
     font-weight: 500;
 }
 
-
-
-
-
-
 /*----------FIN SECTION2-------------*/
-/*Début du responsive*/
+
+/*----------SECTION 3-----------------*/
+.section3{
+    width: 1200px;
+    margin: 100px auto;
+}
+.section3 .repas-content{
+    display: flex;
+    justify-content: space-around;    
+}
+.section3 .titre{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section3 .titre h4{
+    text-transform: capitalize;
+    font-size: 36px;
+    position: relative;
+    display: inline-block;
+}
+.section3 .titre h4 span{
+    display: block;
+    font-size: 18px;
+    font-style: italic;
+}
+.section3 img{
+    height: 40%;
+    width:350px;
+}
+/*----------FIN SECTION 3-------------*/
+/*Responsive*/
 @media (max-width: 1600px){
     
     .sec1 .container .left h1 {
