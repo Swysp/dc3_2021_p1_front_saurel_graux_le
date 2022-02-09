@@ -149,7 +149,18 @@ body{
 }
 /*Fin de la fenêtre POP-UP*/
 /*----------SECTION2-------------*/
+section#lesrepas .repas{
+    text-align: center;
+    padding: 50px 0;
+}
+section#lesrepas .repas h1{
+    font-size: 4em;
+    color: #202020;
+}
+section#lesrepas .repas h2{
 
+    color: #202020;
+}
 section#lesrepas .container-repas{
     max-width: 1600px;
     margin: 0 auto;
@@ -180,7 +191,16 @@ section#lesrepas .container-repas .repas-article .descriptions{
     flex-direction: column;
     padding: 20px 30px;
 }
-
+section#lesrepas .container-repas .repas-article span{
+    font-size: 1em;
+    font-family: MontSerrat;
+    color: #e4e4ec;
+}
+section#lesrepas .container-repas .repas-article a{
+    font-size: 1.8em;
+    color:antiquewhite;
+    font-weight: 500;
+}
 
 
 
