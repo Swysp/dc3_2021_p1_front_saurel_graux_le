@@ -45,6 +45,8 @@ header .logo
   cursor: pointer;
 }
 
+/* Bloc 1 */
+
 .section
 {
   width: 100%;
@@ -79,7 +81,7 @@ header .logo
   z-index: 10;
   padding:100px;
 }
-
+@media (min-width: 1280px) {
 .text h1
 {
   font-size: 5em;
@@ -97,7 +99,26 @@ header .logo
   line-height: 1em;
   text-transform: uppercase;
 }
-
+}
+@media (max-width: 1280px) {
+  .text h1
+  {
+    font-size: 3em;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
+  }
+  
+  .text h2
+  {
+    font-size: 2em;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
+  }
+}
 .text p
 {
     font-family: "Montserrat";
@@ -126,7 +147,9 @@ header .logo
 .page
 {
   background-image: url(img/tanlap-fond.jpg);
-  background-repeat : repeat;
+  background-repeat : no-repeat;
+  background-size:cover;
+
 }
 /* Bloc 2 */
 
