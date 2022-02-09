@@ -7,10 +7,6 @@
 p, button{
     font-family: Montserrat, Helvetica, sans-serif;
 }
-
-
-
-
 .sec1{
     background-color: #202020;
 }
@@ -58,7 +54,7 @@ p, button{
    font-size: 1.3em;
    background-color: #d6242a;
    color: antiquewhite;
-   box-shadow: 0px 0px 10px # ;
+   box-shadow: 0px 0px 10px;
    letter-spacing: 0.08em;
 }
 /* Création du fenêtre POP-UP en CSS */
