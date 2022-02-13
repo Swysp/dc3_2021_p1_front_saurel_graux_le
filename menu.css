@@ -24,14 +24,12 @@ p, button{
     padding-left: 100px;
 }
 .sec1 .container .left h1 {
-  font-size: 4em;
-  color:antiquewhite;
-  text-align: left;
-  line-height: 0.9em;
-  letter-spacing: 0.06em;
-
+    font-size: 60px;
+    color: antiquewhite;
+    text-align: left;
+    line-height: 51%;
+    letter-spacing: 1.06px;
 }
-
 .sec1 .container .left p{
     color: antiquewhite;
     max-width: 550px;
@@ -45,17 +43,16 @@ p, button{
 .sec1 .container .right:hover img{
     transform: scale(1.031);
 }
-
 .sec1 .container .left button{
-   width: 250px;
-   height: 65px;
-   border-radius: 50px;
-   border: none;
-   font-size: 1.3em;
-   background-color: #d6242a;
-   color: antiquewhite;
-   box-shadow: 0px 0px 10px;
-   letter-spacing: 0.08em;
+    width: 250px;
+    height: 65px;
+    border-radius: 50px;
+    border: none;
+    font-size: 17px;
+    background-color: #d6242a;
+    color: antiquewhite;
+    box-shadow: 0px 0px 10px;
+    letter-spacing: 20%;
 }
 /* Création du fenêtre POP-UP en CSS */
 .secPOP .modal .modal_content{
@@ -76,13 +73,13 @@ p, button{
 }
 .secPOP .modal .modal_content h1 {
     color: #202020;
-    font-size: 1.1em;
+    font-size: 20px;
     text-align: center;
     margin-top: 5%;
 }
 .sec1POP .modal .modal_content p {
     color: #202020;
-    font-size: 1em;
+    font-size: 5px;
 }
 /*On fait génère la page*/
 .modal{
@@ -198,12 +195,17 @@ section#lesrepas .container-repas .repas-article a{
     color:antiquewhite;
     font-weight: 500;
 }
+section#lesrepas .container-repas .repas-article{
+    transition: transform 1s;
+}
+section#lesrepas .container-repas .repas-article:hover{
+    transform: scale(1.06);
+}
 
 /*----------FIN SECTION2-------------*/
 
 /*----------SECTION 3-----------------*/
 .section3{
-    
     margin: 100px auto;
     display: flex;
     justify-content: center;
@@ -213,11 +215,9 @@ section#lesrepas .container-repas .repas-article a{
     text-align: center;
     margin-top: 60px;
 }
-.section3 .titre h4{
-    text-transform: capitalize;
-    font-size: 36px;
-    position: relative;
-    display: inline-block;
+.titre span{
+    font-size: 30px;
+    font-family: MontserratBold;
 }
 .section3 .titre h4 span{
     display: flex;
@@ -225,20 +225,43 @@ section#lesrepas .container-repas .repas-article a{
     font-style: italic;
 }
 .section3 .menu .repas1 img{
-    height: 200px;
+    height: 300px;
     width:100%;
+    border-radius: 15px 15px 0 0;
 }
 .menu{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin:10px ;
-    
+    margin:10px;
+    margin-right: 4%;
+    margin-left: 4%;
 }
 .menu .repas1{
-    padding: 10%;
+    border-width: 0px;
+    border-color: #202020;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: #c5c5c5;
 }
+.section3 .repas-content{
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.section3 .menu{
+    transition: transform 1s;
+}
+.section3 .menu:hover{
+    transform: scale(1.06);
+}
+
 /*----------FIN SECTION 3-------------*/
+.texfin{
+    text-align: center;
+    margin-bottom: 30px;
+}
 /*Responsive*/
 @media (max-width: 1600px){
     
