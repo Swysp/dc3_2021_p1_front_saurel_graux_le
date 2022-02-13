@@ -203,9 +203,11 @@ section#lesrepas .container-repas .repas-article a{
 
 /*----------SECTION 3-----------------*/
 .section3{
-    width: 1200px;
+    
     margin: 100px auto;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .titre{
     text-align: center;
