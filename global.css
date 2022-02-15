@@ -28,29 +28,50 @@ h1 {
     text-transform: capitalize;
     font-weight: 700;
     font-size: 54px;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 h2 {
     font-size: 35px;
     font-family: Helvetica, sans-serif;
     line-height: 1.2em;
     font-weight: 600;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 h3 {
-    font-family: 'SourceSerifBold';
-    line-height: 1,5em;
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.2em;
+    font-weight: 600;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 h4 {
     font-size: 25px;
     font-family: Helvetica, sans-serif;
     line-height: 1.2em;
     font-weight: 600; 
+    margin-block-start: 0;
+    margin-block-end: 0;
 } 
-h5, h6 {
+h5 {
+    font-size:20px;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.2em;
+    font-weight: 600; 
+    margin-block-start: 0;
+    margin-block-end: 0;
+} 
+h6 {
     font-family: 'Montserrat';
     line-height: 1,5em;
 }
 p {
     line-height: 1.5em;
+}
+p, button, span{
+    font-family: Montserrat, Helvetica, sans-serif;
 }
 body {
     margin: 0px;
@@ -210,9 +231,6 @@ footer {
 @media only screen and (max-width: 768px)
 {
     /*HEADER*/
-    header{
-        padding: 0% 5%;
-    }
     .contact{
         display: none;
     }
@@ -220,11 +238,12 @@ footer {
         width: 150px;
     }
     .logo {
-        padding-left: 0%;
+        padding-left: 5%;
     }
     nav
     {
         height: 60px;
+        padding-right: 10%;
     }
     nav .nav-liens
     {

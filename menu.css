@@ -3,9 +3,6 @@
     padding:0;
     box-sizing: border-box;
 }
-p, button{
-    font-family: Montserrat, Helvetica, sans-serif;
-}
 .sec1{
     background-color: #11090b;
 }
