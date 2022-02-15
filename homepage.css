@@ -354,17 +354,27 @@
     }
     .sect-quatre {
         width: 100%;
+        height: auto;
         flex-direction: column;
+        padding-bottom: 50px;
     }
     .squatre-left {
        padding-bottom: 20px;
     }
     .squatre-right {
         width: 100%;
+        padding-left: 30px;
+    }
+    .squatre-right-column {
+        flex-direction: column;
+        width: 300px;
+    }
+    .squatre-right-column p {
+        padding-bottom: 20px;
     }
     .squatre-right-sub {
         width: 100%;
-        margin-left: 30px;
+        margin-left: 0px;
     }
     .squatre-left img {
         width: 200px;
@@ -376,4 +386,9 @@
     .squatre-left-img2 {
         margin: -50px 0 0 150px;
     }
+    .footer-mentions p {
+        font-size: 13px;
+        text-align: center;
+    }
+
 }
