@@ -210,6 +210,9 @@ footer {
     .logo img {
         width: 150px;
     }
+    .logo {
+        padding-left: 0%;
+    }
     nav
     {
         height: 60px;
@@ -254,16 +257,6 @@ footer {
     .label-nav:checked{
         margin-right: 0px;
         margin-bottom: 50px;
-    }
-
-    p{
-        font-size: 13px;
-    }
-    h1 {
-        font-size: 30px;
-    }
-    h2 {
-        font-size: 25px;
     }
 }
 

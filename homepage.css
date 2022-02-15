@@ -296,6 +296,16 @@
 /*Mobile responsive*/
 @media only screen and (max-width: 768px)
 {
+    p{
+        font-size: 13px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    
     .sect-premier {
         height: 600px;
     }
