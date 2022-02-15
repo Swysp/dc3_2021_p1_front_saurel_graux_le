@@ -86,15 +86,15 @@
   width: 45%;
 }
 @keyframes movemydiv {
-  from {
+  0% {
     transform: translateX(0px);
   }
 
-  50% {
+   50% {
     transform: rotate(180deg);
   }
 
-  to {
+  100% {
     transform: rotate(360deg);
   }
 }
