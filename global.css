@@ -21,7 +21,15 @@
    }
 
 /*TITRES*/
-h1, h2, h3 {
+h1 {
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 54px;
+}
+h2, h3 {
     font-family: 'SourceSerifBold';
     line-height: 1,5em;
 }
