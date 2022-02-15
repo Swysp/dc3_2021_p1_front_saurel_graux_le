@@ -32,7 +32,7 @@
         flex-direction: column;
         align-items: flex-start;
         text-align: center;
-        top:280px;
+        top:200px;
         left:150px;
         padding: 50px;
         position: absolute;
@@ -284,3 +284,20 @@
         text-decoration: underline;
     }
     
+
+/*Tablet responsive*/
+@media only screen and (max-width: 992px){
+
+}
+
+/*Mobile responsive*/
+@media only screen and (max-width: 768px){
+    .sect-deux{
+        padding: 50px 40px;
+        flex-direction: column-reverse;
+    } 
+    .sdeux-left {
+        padding-right: 0px;
+        padding-top: 0px;
+    }   
+}
