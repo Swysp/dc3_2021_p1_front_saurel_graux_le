@@ -16,6 +16,8 @@ p, button{
     align-items: center;
     max-width: 1500px;
     margin: 0 auto;
+    height: 100%;
+    padding-top: 100px;
 }
 .sec1 .container .left{
     padding-left: 100px;
