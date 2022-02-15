@@ -1,8 +1,4 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
+
 .sec1{
     background-color: #11090b;
 }
@@ -20,17 +16,15 @@
     padding-left: 100px;
 }
 .sec1 .container .left h1 {
-    font-size: 60px;
-    color: antiquewhite;
+    color: white;
     text-align: left;
     line-height: 105%;
     letter-spacing: 1.06px;
 }
 .sec1 .container .left p{
-    color: antiquewhite;
+    color: #dedede;
     max-width: 550px;
-    margin: 40px 0;
-    line-height: 110%;
+    margin: 20px 0;
 }
 .sec1 .container .right img{
     max-height: 750px;
@@ -49,6 +43,10 @@
     background-color: #952327;
     color: antiquewhite;
     letter-spacing: 20%;
+}
+.container-repas p {
+    color: #dedede;
+    font-weight: 200;
 }
 /* Création du fenêtre POP-UP en CSS */
 .secPOP .modal .modal_content{
@@ -148,7 +146,7 @@ section#lesrepas .repas h1{
     font-size: 50px;
     color: #202020;
 }
-section#lesrepas .repas h2{
+section#lesrepas .repas h4{
     color: #202020;
 }
 section#lesrepas .container-repas{
@@ -188,7 +186,7 @@ section#lesrepas .container-repas .repas-article span{
 section#lesrepas .container-repas .repas-article a{
     font-size: 150%;
     color:white;
-    font-weight: 500;
+    font-weight: 600;
 }
 section#lesrepas .container-repas .repas-article{
     transition: transform 1s;
@@ -201,7 +199,7 @@ section#lesrepas .container-repas .repas-article:hover{
 
 /*----------SECTION 3-----------------*/
 .section3{
-    margin: 100px auto;
+    margin: 50px auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -257,6 +255,7 @@ section#lesrepas .container-repas .repas-article:hover{
 .texfin{
     text-align: center;
     margin-bottom: 30px;
+    color: #952327;
 }
 
 @media (max-width: 992px){

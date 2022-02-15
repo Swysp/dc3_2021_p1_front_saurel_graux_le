@@ -18,7 +18,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 800px;
   object-fit: cover;
   opacity: 0.8;
 }
@@ -116,7 +116,9 @@
   justify-content: center;
   align-items: center;
 }
-
+.citation-text h4 {
+  font-size: 35px;
+}
 /* Bloc 3 */
 
 .timeline
@@ -130,17 +132,18 @@
 .presentation 
 {
   width: 35%;
-  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding-left: 10%
 }
 
 .frise
 {
   width:65%;
-  margin-top: 5%;
+  margin: 0px 0 100px;
   padding-left : 8%;
   padding-right: 8%;
-  margin-bottom:15%;
 
 }
 .droite
@@ -170,9 +173,10 @@ font-size: 18px;
 color: #952327;
 font-weight: 600;
 }
-.h2-hist{
-  width: 30px;
+.h2-hist {
+  width: 300px;
   line-height: 1.2;
+  margin-bottom: 20px;
 }
 .h3-histd, .h3-histg{
   line-height: 1.2;
@@ -183,6 +187,9 @@ font-weight: 600;
 }
 
 @media (max-width: 768px) {
+  .citation-text h4 {
+    font-size: 25px;
+  }
   header {
     padding: 0% 0%;
     width: 99%;
@@ -261,7 +268,7 @@ font-weight: 600;
   }
 
   .section {
-    min-height: 500px;
+    min-height: 600px;
   } 
   .citation {
     flex-direction: column;
