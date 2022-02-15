@@ -5,7 +5,12 @@
     scroll-behavior: smooth;
     /*box-sizing: border-box;*/
 }
-   
+
+/*Header spécifique*/
+    header {
+        width: 100%;
+     }
+
    /* SECTION PREMIER */
     .sect-premier{
         height: 800px;

@@ -10,17 +10,20 @@
         <link rel="stylesheet" href="menu.css"/>
         <link rel="stylesheet" href="global.css"/>
     </head>
+    
     <body>
-
-       <!--PENSER A L'ENVOYER EN MODE PHP SUR TOUTE LES PAGES-->
-        <!--On ajoute la Navbar/Menu -->
-        <link rel="stylesheet" href="navbar.css"/>
-        <header style="background-color: white;">
-            <a class="logo" href="homepage.html"><img src="IMG/logo-tanlap-site.png" alt="logo"></a>
-            <nav>
+        <!--PENSER A L'ENVOYER EN MODE PHP SUR TOUTE LES PAGES-->
+        <header>
+            <a class="logo" href="homepage.html">
+                <img src="IMG/logo-tanlap-site.png" alt="logo" class="logo-black">
+                <img src="IMG/logo-tanlap-site-w.png" alt="logo" class="logo-white">
+            </a>
+            <nav>             	
+                <label class="label-nav" for="toggle">☰</label>
+                <input type="checkbox" id="toggle">
                 <ul class="nav-liens">
-                    <li><a href="quisommesnous.html">Qui sommes nous ?</a></li>
-                    <li><a href="menu.html">Le menu</a></li>
+                    <li><a href="quisommesnous.html">Qui sommes-nous ?</a></li>
+                    <li><a href="menu.html">Notre carte</a></li>
                 </ul>
             </nav>
             <a class="contact" href="#"><button>Contact</button></a>
