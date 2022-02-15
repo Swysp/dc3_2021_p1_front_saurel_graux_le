@@ -1,54 +1,7 @@
-@font-face 
-{
-  font-family: "MontserratBold";
-  src: url("FONT/Montserrat-Bold.ttf") format("truetype");
-}
 
-@font-face 
-{
-  font-family: "Montserrat";
-  src: url("FONT/montserrat/static/Montserrat-Regular.ttf") format("truetype");
-}
-
-h1, h2, h3, h4, h5, h6
-{
-  font-family: "MontserratBold";
-  text-transform: uppercase;
-  line-height: 1,5em;
-}
-  
-*
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Montserrat";
-}
-
-header
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 40px 100px;
-  z-index: 1000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header .logo
-{
-  color: #fff;
-  text-transform: uppercase;
-  cursor: pointer;
-}
 
 /* Bloc 1 */
-
-.section
-{
+.section {
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -58,14 +11,10 @@ header .logo
   transition: 0.5s;
   z-index: 2;
 }
-
-.section.active
-{
+.section.active {
   right: 300px;
 }
-
-.section video
-{
+.section video {
   
   top: 0;
   left: 0;
@@ -74,51 +23,27 @@ header .logo
   object-fit: cover;
   opacity: 0.8;
 }
-
-.text
-{
+.text {
   position: absolute;
   z-index: 10;
   padding:100px;
 }
-@media (min-width: 768px) {
-.text h1
-{
+.text h1 {
   font-size: 5em;
   font-weight: 800;
   color: #fff;
   line-height: 1em;
   text-transform: uppercase;
 }
-
-.text h2
-{
+.text h2 {
   font-size: 4em;
   font-weight: 700;
   color: #fff;
   line-height: 1em;
   text-transform: uppercase;
 }
-}
-@media (max-width: 768) {
-  .text h1
-  {
-    font-size: 3em;
-    font-weight: 800;
-    color: #fff;
-    line-height: 1em;
-    text-transform: uppercase;
-  }
-  
-  .text h2
-  {
-    font-size: 2em;
-    font-weight: 700;
-    color: #fff;
-    line-height: 1em;
-    text-transform: uppercase;
-  }
-}
+
+
 .text p
 {
     font-family: "Montserrat";
@@ -152,7 +77,6 @@ header .logo
 
 }
 /* Bloc 2 */
-
 .citation 
 {
   display:flex;
@@ -162,26 +86,22 @@ header .logo
   padding:5% 0%;
 }
 
-@media (min-width: 768px) 
+.image1
 {
-  .image1
-  {
-    width: 35%;
-    
-  }
-
-  .image2
-  {
-    width: 20%;
-  }
-
-  .citation-text
-  {
-    padding-right: 5%;
-    width: 45%;
-  }
+  width: 35%;
+  
 }
 
+.image2
+{
+  width: 20%;
+}
+
+.citation-text
+{
+  padding-right: 5%;
+  width: 45%;
+}
 @keyframes movemydiv {
   from {
     transform: translateX(0px);
@@ -214,66 +134,47 @@ header .logo
   align-items: center;
 }
 
-@media (max-width: 768px) 
-{
-  .citation > *
-  {
-    margin: 5%;
-  }
-
-  .citation-text
-  {
-    padding: 0px 5%;
-  }  
-}
-
 /* Bloc 3 */
 
-@media (min-width: 768px) 
+.timeline
 {
-  .timeline
-  {
-    display:flex;
-    flex-wrap: wrap;
-    align-items: top;
-    line-height: 2em;
-  }
-  
-  .presentation 
-  {
-    width: 35%;
-    margin-top: 5%;
-    padding-left: 10%
-  }
-  
-  .frise
-  {
-    width:65%;
-    margin-top: 5%;
-    padding-left : 8%;
-    padding-right: 8%;
-    margin-bottom:15%;
-  
-  }
-  .droite
-  {
-  text-align: right;
-  padding: 0% 3% 3% 0%;
-  border-right : 0.4rem solid;
-  border-color: #952327;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: top;
   line-height: 2em;
-  }
-  .gauche
-  {
-  text-align: left;
-   padding: 0% 0% 3% 3%;
-   border-color: #952327;
-   line-height: 2em;
-  }
-  
 }
 
+.presentation 
+{
+  width: 35%;
+  margin-top: 5%;
+  padding-left: 10%
+}
 
+.frise
+{
+  width:65%;
+  margin-top: 5%;
+  padding-left : 8%;
+  padding-right: 8%;
+  margin-bottom:15%;
+
+}
+.droite
+{
+text-align: right;
+padding: 0% 3% 3% 0%;
+border-right : 0.4rem solid;
+border-color: #952327;
+line-height: 2em;
+}
+.gauche
+{
+text-align: left;
+ padding: 0% 0% 3% 3%;
+ border-color: #952327;
+ line-height: 2em;
+}
 table 
 {
   border-collapse : collapse; 
@@ -286,8 +187,33 @@ font-size: 18px;
 color: #952327;
 }
 
-@media (max-width: 768px)
-{
+@media (max-width: 768px) {
+  .text h1
+  {
+    font-size: 3em;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
+  }
+  
+  .text h2
+  {
+    font-size: 2em;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
+  }
+  .citation > *
+  {
+    margin: 5%;
+  }
+
+  .citation-text
+  {
+    padding: 0px 5%;
+  }  
   .timeline
   {
     display:flex;
@@ -311,26 +237,18 @@ color: #952327;
     margin-bottom:10%;
   
   }
-.gauche
- {
-  line-height: 2em;
-  padding-top: 5%;
-  border-left : 0.4rem solid;
-  border-color: #952327;
-  padding-left:5%;
-}
-.droite
-{
-  line-height: 2em;
-  padding-top: 5%;
-  border-left : 0.4rem solid;
-  border-color: #952327;
-  padding-left: 5%;
-}
-.vide
-{
-  display:none;
-}
-
-
+  .gauche, .droite
+  {
+    line-height: 2em;
+    padding-top: 5%;
+    border-left : 0.4rem solid;
+    border-right: 0px;
+    border-color: #952327;
+    padding-left:5%;
+    text-align: left;
+  }
+  .vide
+  {
+    display:none;
+  }
 }
