@@ -26,7 +26,7 @@ p, button{
     font-size: 60px;
     color: antiquewhite;
     text-align: left;
-    line-height: 80%;
+    line-height: 105%;
     letter-spacing: 1.06px;
 }
 .sec1 .container .left p{
@@ -169,7 +169,7 @@ section#lesrepas .container-repas .repas-article{
     flex-direction: column;
     align-items: center;
     max-width: 300px;
-    background-color: #d6242a;
+    background-color: #952327;
     border-radius: 15px;
     margin: 15px;
 }
@@ -186,11 +186,11 @@ section#lesrepas .container-repas .repas-article .descriptions{
 section#lesrepas .container-repas .repas-article span{
     font-size: 110%;
     font-family: MontSerrat;
-    color: #e4e4ec;
+    color: white;
 }
 section#lesrepas .container-repas .repas-article a{
     font-size: 150%;
-    color:antiquewhite;
+    color:white;
     font-weight: 500;
 }
 section#lesrepas .container-repas .repas-article{
@@ -201,13 +201,6 @@ section#lesrepas .container-repas .repas-article:hover{
 }
 /*----------FIN SECTION2-------------*/
 /*----CallToAction-----*/
-.calltoaction1{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    align-items: center;
-    align-content: center;
-}
 
 /*----------SECTION 3-----------------*/
 .section3{
@@ -215,6 +208,7 @@ section#lesrepas .container-repas .repas-article:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 .titre{
     text-align: center;
