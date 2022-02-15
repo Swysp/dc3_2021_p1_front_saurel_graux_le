@@ -258,5 +258,10 @@ footer {
         margin-right: 0px;
         margin-bottom: 50px;
     }
+    .footer-mentions p {
+        font-size: 13px;
+        text-align: center;
+        width: 250px;
+    }
 }
 
