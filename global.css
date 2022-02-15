@@ -40,6 +40,73 @@ body {
 .label-nav, #toggle {
     display: none;
 }
+.logo-black {
+    display: none;
+}
+.nav-liens li a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 5px 5px 10px black;
+    color: #dedede;
+    text-decoration: none;
+}
+.contact button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #dedede;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0% 10%;
+    background-color: transparent !important;
+    position: absolute;
+    top: 0px;
+    z-index: 9999;
+}
+.logo {
+    cursor: pointer ;
+    margin-right: auto ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav-liens{
+     list-style: none;
+     float: right;
+}
+.nav-liens li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-liens li a{
+    transition: all 0.3s ease 0s; 
+}
+.nav-liens li a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+    transition: all 1s;
+}
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #952327;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s; 
+}
+button:hover{
+    background-color: #d6242a;
+}
+.contact button{
+    color: #F5F5F5;
+}
 
 /*FOOTER*/
 footer {
