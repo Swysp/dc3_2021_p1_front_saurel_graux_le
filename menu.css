@@ -3,15 +3,12 @@
     padding:0;
     box-sizing: border-box;
 }
-
 p, button{
     font-family: Montserrat, Helvetica, sans-serif;
 }
 .sec1{
     background-color: #202020;
 }
-
-
 /*-----Section1-----*/
 .sec1 .container {
     /* Permet de align au centre les informations */
@@ -34,10 +31,10 @@ p, button{
     color: antiquewhite;
     max-width: 550px;
     margin: 40px 0;
-    line-height: 1.2em;
+    line-height: 110%;
 }
 .sec1 .container .right img{
-    height: 45em;
+    height: 750px;
     transition: transform 1s;
 }
 .sec1 .container .right:hover img{
@@ -49,9 +46,8 @@ p, button{
     border-radius: 50px;
     border: none;
     font-size: 17px;
-    background-color: #d6242a;
+    background-color: #952327;
     color: antiquewhite;
-    box-shadow: 0px 0px 10px;
     letter-spacing: 20%;
 }
 /* Création du fenêtre POP-UP en CSS */
@@ -97,7 +93,6 @@ p, button{
     align-items: center;
     transition: .3s;
 }
-
 /*Permet de rendre visible la page pop-up*/
 .modal:target {
     visibility: visible;
@@ -105,7 +100,7 @@ p, button{
 }
 .modal .modal_content{
     background-color: white;
-    padding: 1.5em 2em;
+    padding: 2px 4px;
     width: 500px;
 /*Permet de rendre la fenêtre responsive*/
     max-width: 90%;
@@ -119,7 +114,7 @@ p, button{
     right: 15px;
     top: 15px;
     text-decoration: none;
-    color: #d6242a;
+    color: #952327;
 }
 /*On ajoute un effet de rotation sur la croix*/
 .modal_close:hover{
@@ -127,16 +122,16 @@ p, button{
     transform: rotate(45deg);
 }
 .secPOP .modal .modal_content button{
-    background-color: #d6242a;
+    background-color: #952327;
     width: 120px;
     height: 40px;
     box-shadow: none;
     display: block;
     margin: 15px 67%;
     position: relative;
-    font-size: 0.95em;
+    font-size: 15px;
     letter-spacing: normal;
-    padding-left: 1.1em;
+    padding-left: 18px;
 }
 /*Fin de la fenêtre POP-UP*/
 /*----------SECTION2-------------*/
@@ -148,7 +143,7 @@ section#lesrepas .repas{
     padding: 50px 0;
 }
 section#lesrepas .repas h1{
-    font-size: 3em;
+    font-size: 50px;
     color: #202020;
 }
 section#lesrepas .repas h2{
@@ -173,12 +168,10 @@ section#lesrepas .container-repas .repas-article{
     border-radius: 15px;
     margin: 15px;
 }
-
 section#lesrepas .container-repas .repas-article .repas-images img{
     width: 100%;
     border-radius: 15px 15px 0 0;
 }
-
 section#lesrepas .container-repas .repas-article .descriptions{
     max-width: 500px;
     display: flex;
@@ -186,12 +179,12 @@ section#lesrepas .container-repas .repas-article .descriptions{
     padding: 20px 30px;
 }
 section#lesrepas .container-repas .repas-article span{
-    font-size: 1em;
+    font-size: 110%;
     font-family: MontSerrat;
     color: #e4e4ec;
 }
 section#lesrepas .container-repas .repas-article a{
-    font-size: 1.8em;
+    font-size: 150%;
     color:antiquewhite;
     font-weight: 500;
 }
@@ -242,11 +235,11 @@ section#lesrepas .container-repas .repas-article:hover{
     border-color: #202020;
     border-style: solid;
     border-radius: 15px;
-    background-color: #c5c5c5;
+    background-color: #952327;
 }
 .section3 .repas-content{
     margin-left: 20px;
-    color: rgb(0, 0, 0);
+    color: white;
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -264,16 +257,14 @@ section#lesrepas .container-repas .repas-article:hover{
 }
 /*Responsive*/
 @media (max-width: 1600px){
-    
     .sec1 .container .left h1 {
-        font-size: 3em;
+        font-size: 53px;
         padding-top: 10%;
       }
       .secPOP .modal .modal_content h1 {
-          font-size: 1em;
+          font-size: 20px;
           padding-top: 0;
       }
-
 }
 
 @media (max-width: 1300px){
@@ -291,19 +282,19 @@ section#lesrepas .container-repas .repas-article:hover{
     }
 
     .sec1 .container .right img{
-        height: 40em;
+        height: 500px;
     }
 }
-@media (max-width: 770px){
+@media (max-width: 768px){
     .sec1 .container .left h1 {
-        font-size: 1.7em;
+        font-size: 30px;
       }
     .sec1 .container .left p{
         margin: 40px 35px;
-        line-height: 1.2em;
+        line-height: 110%;
     }
     .sec1 .container .right img{
-        height: 30em;
+        height: 300px;
     }
     .secPOP .modal .modal_content h1 {
         font-size: 1em;
@@ -313,6 +304,6 @@ section#lesrepas .container-repas .repas-article:hover{
         width: 100%;  
        }
        .secPOP .modal .modal_content button{
-           margin: 15px auto;
+        margin: 15px auto;
        }
 }
