@@ -33,6 +33,11 @@ h4, h5, h6 {
     line-height: 1,5em;
 }
 
+/*HEADER*/
+.label-nav, #toggle {
+    display: none;
+}
+
 /*FOOTER*/
 footer {
     background-color: #7c1a1d;
@@ -83,5 +88,42 @@ footer {
     .logo img {
         width: 150px;
     }
-
+    nav
+    {
+        height: 60px;
+    }
+    nav .nav-liens
+    {
+        display: none;
+        flex-direction: column;
+        background: #7c1a1d;
+        height: 200px;
+        z-index: 9999;
+    }
+    nav .nav-liens a {
+        width: 50%;
+        color: #dedede;
+    }
+    .label-nav
+    {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color:#a52125;
+        cursor: pointer;
+    }
+    .label-nav:hover{
+        color:#7c1a1d;
+    }
+    #toggle:checked + .nav-liens {
+        display: flex;
+    }
+    .label-nav:checked{
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
 }
+
