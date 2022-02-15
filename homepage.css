@@ -139,13 +139,14 @@
     }
 
     .sdeux-left{
-        padding-right: 200px;
+        padding-right: 100px;
         padding-top: 50px;
     }
 
     .sdeux-left p{
         font-weight: 300;
         padding-top: 20px;
+        line-height: 1.5em;
     }
 
     .sdeux-left h2{
@@ -155,6 +156,7 @@
     .sdeux-right img{
         max-width: 600px;
         margin: 0 30px;
+        border-radius: 20px;
     }
 
     /* SECTION TROIS */
@@ -219,10 +221,10 @@
         vertical-align: middle;
         object-fit: cover;
         overflow: hidden;
-        border-radius: 5px;
+        border-radius: 10px;
     }
     .squatre-left-img1{
-        margin: 100px 0 0 120px;
+        margin: 100px 0 0 100px;
     }
     .squatre-left-img2{
         margin: -100px 0 0 380px;
