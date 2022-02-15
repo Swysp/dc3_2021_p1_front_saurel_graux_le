@@ -39,7 +39,13 @@ h3 {
     font-family: 'SourceSerifBold';
     line-height: 1,5em;
 }
-h4, h5, h6 {
+h4 {
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.2em;
+    font-weight: 600; 
+} 
+h5, h6 {
     font-family: 'Montserrat';
     line-height: 1,5em;
 }
@@ -159,6 +165,9 @@ button:hover{
 }
 .scrolltotop span:hover{
     text-decoration: none;
+}
+.scrolls-link {
+    margin-top: auto;
 }
 
 /*FOOTER*/
