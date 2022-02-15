@@ -3,7 +3,7 @@
 /* Bloc 1 */
 .section {
   width: 100%;
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,7 +15,6 @@
   right: 300px;
 }
 .section video {
-  
   top: 0;
   left: 0;
   width: 100%;
@@ -80,7 +79,7 @@
 .citation 
 {
   display:flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
   padding:5% 0%;
@@ -139,7 +138,7 @@
 .timeline
 {
   display:flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: top;
   line-height: 2em;
 }
@@ -187,6 +186,11 @@ font-size: 18px;
 color: #952327;
 }
 
+.h2-hist{
+  width: 30px;
+  line-height: 1.2;
+}
+
 @media (max-width: 768px) {
   .text h1
   {
@@ -205,14 +209,11 @@ color: #952327;
     line-height: 1em;
     text-transform: uppercase;
   }
-  .citation > *
-  {
-    margin: 5%;
-  }
 
   .citation-text
   {
     padding: 0px 5%;
+    width: 300px;
   }  
   .timeline
   {
@@ -227,6 +228,7 @@ color: #952327;
     margin-top: 5%;
     padding-left: 15%;
     padding-right:15%;
+    width: 300px;
   }
   
   .frise
@@ -251,4 +253,22 @@ color: #952327;
   {
     display:none;
   }
+  .text {
+    padding: 10px;
+  }
+  .section {
+    min-height: 500px;
+  } 
+  .citation {
+    flex-direction: column;
+  }
+  .image1 {
+    width: 70%;
+}
+.image2 {
+  font-size: 5em;
+}
+.h2-hist {
+  width: 250px;
+}
 }

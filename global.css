@@ -32,6 +32,9 @@ h4, h5, h6 {
     font-family: 'Montserrat';
     line-height: 1,5em;
 }
+body {
+    margin: 0px;
+}
 
 /*HEADER*/
 .label-nav, #toggle {
@@ -42,7 +45,6 @@ h4, h5, h6 {
 footer {
     background-color: #7c1a1d;
     height: auto;
-    width: 100%;
     padding: 25px;
 }
 .footer-niv2 {
@@ -111,9 +113,11 @@ footer {
         justify-content: center;
         align-items: center;
         margin: 0 auto;
+        margin-right: 0px;
         font-size: 40px;
         color:#a52125;
         cursor: pointer;
+        border-radius: 10px;
     }
     .label-nav:hover{
         color:#7c1a1d;
