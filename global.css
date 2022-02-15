@@ -137,6 +137,30 @@ button:hover{
     padding-right: 10%;
 }
 
+/*Scroll to top*/
+   .scrolltotop {
+    display: flex;
+    justify-content: center;
+    background-color: #7c1a1d;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    border: solid 1px white;
+    rotate: 45deg;
+}
+.scrolltotop span {
+    font-size: 30px;
+    color: #dedede;
+}
+.scrolltotop:hover{
+    background-color: #dd1b22;
+}
+.scrolltotop span:hover{
+    text-decoration: none;
+}
+
 /*FOOTER*/
 footer {
     background-color: #7c1a1d;
@@ -230,6 +254,16 @@ footer {
     .label-nav:checked{
         margin-right: 0px;
         margin-bottom: 50px;
+    }
+
+    p{
+        font-size: 13px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
     }
 }
 
