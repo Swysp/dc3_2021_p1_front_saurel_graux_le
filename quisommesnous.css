@@ -28,11 +28,12 @@
   padding:100px;
 }
 .text h1 {
-  font-size: 5em;
+  font-size: 3em;
   font-weight: 800;
   color: #fff;
   line-height: 1em;
   text-transform: uppercase;
+  margin:0%;
 }
 .text h2 {
   font-size: 4em;
@@ -40,6 +41,7 @@
   color: #fff;
   line-height: 1em;
   text-transform: uppercase;
+  margin:0%;
 }
 
 
@@ -185,10 +187,20 @@ table
 font-size: 18px;
 color: #952327;
 }
+.h1-class {
 
+
+}
 .h2-hist{
   width: 30px;
   line-height: 1.2;
+}
+.h3-histd, .h3-histg{
+  line-height: 1.2;
+}
+
+.h3-histd {
+  text-align:right;
 }
 
 @media (max-width: 768px) {
@@ -206,7 +218,6 @@ color: #952327;
     font-size: 2em;
     font-weight: 700;
     color: #fff;
-    line-height: 1em;
     text-transform: uppercase;
   }
 
@@ -270,5 +281,9 @@ color: #952327;
 }
 .h2-hist {
   width: 250px;
+}
+.h3-hist {
+  width: 200px;
+  
 }
 }
