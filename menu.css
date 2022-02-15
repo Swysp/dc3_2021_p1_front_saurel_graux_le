@@ -24,7 +24,7 @@ p, button{
     font-size: 60px;
     color: antiquewhite;
     text-align: left;
-    line-height: 51%;
+    line-height: 80%;
     letter-spacing: 1.06px;
 }
 .sec1 .container .left p{
@@ -34,8 +34,9 @@ p, button{
     line-height: 110%;
 }
 .sec1 .container .right img{
-    height: 750px;
+    max-height: 750px;
     transition: transform 1s;
+    width: 100%;
 }
 .sec1 .container .right:hover img{
     transform: scale(1.031);
@@ -59,6 +60,7 @@ p, button{
 .secPOP .modal .modal_content input{
     padding: 10px;
     margin-top: 8%;
+    margin-left: 3px;
     border: none;
     outline: none;
     border-bottom: 2px solid  #e4e4ec;
@@ -107,6 +109,7 @@ p, button{
     border-radius: 4px;
     position: relative;
     padding-top: 10px;
+    margin: 10%;
 }
 /*Permet de fermer la page POP-UP*/
 .modal_close{
@@ -194,8 +197,15 @@ section#lesrepas .container-repas .repas-article{
 section#lesrepas .container-repas .repas-article:hover{
     transform: scale(1.06);
 }
-
 /*----------FIN SECTION2-------------*/
+/*----CallToAction-----*/
+.calltoaction1{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+}
 
 /*----------SECTION 3-----------------*/
 .section3{
@@ -255,25 +265,13 @@ section#lesrepas .container-repas .repas-article:hover{
     text-align: center;
     margin-bottom: 30px;
 }
-/*Responsive*/
-@media (max-width: 1600px){
-    .sec1 .container .left h1 {
-        font-size: 53px;
-        padding-top: 10%;
-      }
-      .secPOP .modal .modal_content h1 {
-          font-size: 20px;
-          padding-top: 0;
-      }
-}
 
-@media (max-width: 1300px){
+@media (max-width: 992px){
     .sec1 .container {
-        /* Permet de align au centre les informations */
         flex-direction: column;
-
     }
     .sec1 .container .left{
+        margin-top: 10%;
         display: flex;
         flex-direction: column;
         text-align: center;
