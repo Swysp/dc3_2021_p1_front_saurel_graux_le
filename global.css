@@ -49,6 +49,18 @@ p {
 body {
     margin: 0px;
 }
+a {
+    font-family: 'Montserrat';
+    line-height: 1,5em;
+    font-size: 16px;
+    color: #303030;
+    text-decoration: none;
+    font-weight: 600;
+}
+a:hover{
+    color: #d6242a;
+    text-decoration: underline;
+}
 
 /*HEADER*/
 .label-nav, #toggle {
