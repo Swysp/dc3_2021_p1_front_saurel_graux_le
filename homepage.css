@@ -282,9 +282,70 @@
     
 
 /*Tablet responsive*/
-/*@media screen and (max-width: 992px){
-
-}*/
+@media screen and (max-width: 992px){
+    .spre-left {
+        left: 50px;
+    }
+    .sect-deux {
+        flex-direction: column;
+        padding: 50px 50px;
+    }
+    .sdeux-left {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .sect-trois {
+        flex-direction: column;
+        height: 900px;
+    }
+    .strois-left {
+        width: 100%;
+        padding-left: 50px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .strois-left p, .strois-left h2 {
+        width: 600px;
+    }
+    .strois-right {
+        width: 100%;
+    }
+    .strois-right img {
+        height: 600px;
+    }
+    .sect-quatre {
+        flex-direction: column;
+        height: 1200px;
+    }
+    .squatre-left {
+        width: 100%;
+    }
+    .squatre-left-img1 {
+        margin: 50px 0 0 50px;
+    }
+    .squatre-left-img2 {
+        margin: -100px 0 0 300px;
+    }
+    .squatre-right {
+        width: 100%;
+    }
+    .squatre-right-sub {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .sect-cinq {
+        flex-direction: column;
+    }
+    .scinq-right,.scinq-left {
+        width: 100%;
+    }
+    .scinq-left {
+        padding: 80px;
+    }
+    .scinq-right{
+        height: 400px;
+    }
+}
 
 /*Mobile responsive*/
 @media only screen and (max-width: 768px)
