@@ -143,7 +143,6 @@ section#lesrepas .repas{
     padding: 50px 0;
 }
 section#lesrepas .repas h1{
-    font-size: 50px;
     color: #202020;
 }
 section#lesrepas .repas h4{
@@ -158,7 +157,6 @@ section#lesrepas .container-repas{
     justify-content: center;
     padding-bottom: 100px;
 }
-
 section#lesrepas .container-repas .repas-article{
     display: flex;
     flex-direction: column;
@@ -195,24 +193,22 @@ section#lesrepas .container-repas .repas-article:hover{
     transform: scale(1.06);
 }
 /*----------FIN SECTION2-------------*/
-/*----CallToAction-----*/
-
 /*----------SECTION 3-----------------*/
 .section3{
     margin: 50px auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
 }
 .titre{
     text-align: center;
     margin-top: 60px;
+
 }
-.titre span{
-    font-size: 30px;
-    font-family: MontserratBold;
+.titre h1{
+    color: #202020;
 }
+
 .section3 .titre h4 span{
     display: flex;
     font-size: 18px;
@@ -279,6 +275,9 @@ section#lesrepas .container-repas .repas-article:hover{
     .sec1 .container .left h1 {
         font-size: 30px;
       }
+      section#lesrepas .repas h1{
+          font-size: 30px;
+      }
     .sec1 .container .left p{
         margin: 40px 35px;
         line-height: 110%;
@@ -296,4 +295,8 @@ section#lesrepas .container-repas .repas-article:hover{
        .secPOP .modal .modal_content button{
         margin: 15px auto;
        }
+    .titre h1{
+        font-size: 30px;
+    }
+    
 }
